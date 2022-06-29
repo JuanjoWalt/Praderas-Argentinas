@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+
+} 
+
+.grid__item {
+    height: auto;
+
+}
+
+body {
+    display: grid;
+    font-family: font-family, 'Nunito', sans-serif;
+    background-color: #ffeaca;
+
+    grid-template-areas:
+    "header  header  header"
+    "article  article  article"
+    "main  main  main"
+    "footer  footer  footer"
+ }
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    grid-area: header;
+
+}
+
+article {
+    background-color: #eebe6b;
+
+    grid-area: article; 
+}
+
+main {
+    background-color: rgb(168, 9, 9);
+
+    grid-area: main; 
+}
+
+/* Pie de Pagina */
+footer {
+    background-color: #eebe6b;
+    
+    grid-area: footer; 
+}
+
+
+
+
+
+
+
+
+
+/* mobile first: de patallas pequeñas a graandes*/
+/* min-widht (desde la resolucion)*/
+
+@media (min-width: 480px) {
+h1 {
+    color: green;
+}
+
+
+
+}
+
+@media (min-width: 768px) {
+
+    h1 {
+        color: rgb(128, 0, 0);
+    }
+  
+
+}
+
+/* mobile last: de diseños dektop a mobile*/
+/* max-widht (hasta la resolucion)*/
+
+@media (max-width: 768px) {
+
+    p {
+
+        display:none
+}
+
+}
+
+
+.grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+justify-items: center;
+
+}
+
+@media (max-width: 768px) {
+   p{
+    font-size: 20px;
+   }
+
+.grid {
+grid-template-columns: 1fr;
+
+}
+
+}
