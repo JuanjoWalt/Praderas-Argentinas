@@ -76,13 +76,6 @@ header {
     font-family: font-family, 'Lemon', cursive;  
 }
 
-.content__title a{
-    
-    
-}
-
-
-
 .content__navbar {
     display: flex;
 
@@ -791,10 +784,3 @@ background-color: #eebe6b;
 grid-area: footer; 
 
 }
-
-
-/* .hero__grid { 
-display: grid;
-grid-template-column: repeat(2, 1fr);
-gap: 50px
-} */
