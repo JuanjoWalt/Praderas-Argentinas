@@ -73,8 +73,11 @@ header {
 
 .content__title {
     color: #461008;
-    font-family: font-family, 'Lemon', cursive;
-    font-size: 1.4rem;
+    font-family: font-family, 'Lemon', cursive;  
+}
+
+.content__title a{
+    
     
 }
 
@@ -138,11 +141,18 @@ article {
 }
  
 /* banner */
-.card {
-    background-color: #eebe6b;
-    padding: 20px;
-    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+
+
+.card base{
+background-color: #f5d7a3;
+
 }
+
+/* .card {
+    background-color: #ffffff;
+    margin: 20px;
+    box-shadow: 0 15px 20px -2px rgba(0,0,0,0.5);
+} */
 
 .card__title {
 
@@ -157,14 +167,14 @@ article {
     position: relative;
 }
 
-.card__article img{
+/* .card__article img{
     width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
 
-}
+} */
 
-.card__article small {
+/* .card__article small {
     background-color: rgba(255, 225, 94, 0.5);
     color: #461008;
     padding: 20px;
@@ -173,7 +183,7 @@ article {
     border-bottom-right-radius: 10px;
     font-family: font-family, 'Nunito', cursive;
     
-}
+} */
 
 .card__titulo { 
     font-size: 2rem;
@@ -209,9 +219,21 @@ article {
     border-radius: 5px;
     padding: 5px;
     line-height: 50px;
-
-
 }
+
+
+.card__link--Bot {
+    background-color:#461008;
+    color: white;
+}
+
+.effect {
+transition: box-shadow 0.3s;
+}
+
+.effect:hover {
+    box-shadow: 0 25px 50px -12px rgb(0, 0, 0, 0.4)
+    }
 
 
 main {
