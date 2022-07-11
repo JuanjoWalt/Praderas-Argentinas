@@ -9,5 +9,7 @@ Agregar git a nuestro proyecto. Crear una rama y agregar animaciones, transforma
 
 Ademas se agrego que el sitio sea FULL RESPONSIVE
 
+Index, Carrousel, tarjetas y footer con bootstrap
+
 
 
