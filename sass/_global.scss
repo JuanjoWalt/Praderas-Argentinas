@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.container {
+max-width: 1200px;
+margin: 15px auto;
+
+} 
+
+
+.checkbox, label, menu, input  {
+    display: none;
+}
+ 
+
+.grid__item {
+    height: auto;
+
+}
+
+
+
+body {
+    display: grid;
+    font-family: font-family, 'Nunito', sans-serif;
+    background-color: #ffeaca;
+
+    grid-template-areas:
+    "header  header  header"
+    "article  article  article"
+    "main  main  main"
+    "footer  footer  footer"
+ }

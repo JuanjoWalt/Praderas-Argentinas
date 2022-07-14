@@ -1,0 +1,62 @@
+header {
+    background-color: white;
+    text-align: left;
+    /* padding: 1rem 2rem; */
+
+    
+    grid-area: header;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    margin: 15px auto;
+}
+
+.content__title {
+    color: #461008;
+    font-family: font-family, 'Lemon', cursive;  
+}
+
+.content__navbar {
+    display: flex;
+
+}
+
+  /* Cambiar el color de los enlaces al pasar el mouse */
+  .content__navbar li :hover {
+    background-color: #f5d7a3;
+    border-radius: 5px;
+    border: 10px;
+    padding: 5px;
+       
+  }
+  
+  /* Agregar un color al enlace activo/actual */
+  .content__navbar li a.active {
+    background-color:#eebe6b;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+.content__navbar li {
+    margin: 0 10px;
+
+
+}
+
+.content__navbar li a {
+    color: #461008;
+    font-weight: medium;  
+
+}
+
+article {
+    background-color: #f5d7a3;
+
+    grid-area: article; 
+}

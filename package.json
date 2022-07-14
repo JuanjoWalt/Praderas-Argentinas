@@ -1,0 +1,22 @@
+{
+  "name": "praderas-argentinas",
+  "version": "1.0.0",
+  "description": "proyecto",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass sass/index.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanjoWalt/Praderas-Argentinas.git"
+  },
+  "author": "juan Walter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanjoWalt/Praderas-Argentinas/issues"
+  },
+  "homepage": "https://github.com/JuanjoWalt/Praderas-Argentinas#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

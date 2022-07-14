@@ -1,0 +1,240 @@
+/* banner */
+
+
+.card base{
+    background-color: #f5d7a3;
+    
+    }
+    
+    /* .card {
+        background-color: #ffffff;
+        margin: 20px;
+        box-shadow: 0 15px 20px -2px rgba(0,0,0,0.5);
+    } */
+    
+    .card__title {
+    
+        font-size: 1.5rem;
+        color: #461008;
+        text-align: left;
+        padding: 10px;
+    
+    }
+    
+    .card__article {
+        position: relative;
+    }
+    
+    /* .card__article img{
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    
+    } */
+    
+    /* .card__article small {
+        background-color: rgba(255, 225, 94, 0.5);
+        color: #461008;
+        padding: 20px;
+        position: absolute;
+        left: 0px;
+        border-bottom-right-radius: 10px;
+        font-family: font-family, 'Nunito', cursive;
+        
+    } */
+    
+    .card__titulo { 
+        font-size: 2rem;
+        color: #7c4609;
+        text-align: left;
+        padding: 15px;
+    }
+    
+    .card_subtitulo {
+        max-width: 350px;
+       
+        text-align: left;
+        padding: 0px 40px;
+    
+    
+    }
+    
+    .card__titulo--principal {
+        background-color: #cf9632;
+        font-weight:cursive ;
+        color: #ffffff;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .card__descripcion {
+        vertical-align: baseline;
+    }
+    
+    .card__link {
+        background-color:#461008;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        line-height: 50px;
+    }
+    
+    
+    .card__link--Bot {
+        background-color:#461008;
+        color: white;
+    }
+    
+    .effect {
+    transition: box-shadow 0.3s;
+    }
+    
+    .main {
+        background-color: rgb(255, 255, 255);
+    
+        grid-area: main; 
+    }
+    
+    /* Destacados inicio */
+    
+    .destacados {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5px;
+        background-color: #f5d7a3;
+        flex: 1 2 320px;
+     }
+     
+     .destacados1 {
+         width: 320px;
+         margin-right: 10px;
+         margin-left: 5px;
+      }
+     
+      h4 {
+        font-size: 1rem;
+        color: #7c4609;
+        text-align: left;
+        padding: 5px;
+      }
+    
+      .linearGradient {
+    
+        color: #7c4609;
+        margin: 5px;
+    
+    
+      }
+    
+    
+     
+     .destacados__notas {
+         background-color: #f5d7a3;
+         color: #f5d7a3;
+         width: auto;
+         
+     }  
+     
+     .destacados__notas--img {
+         background-color: #ffffff;
+         border-radius: 8px;
+         box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         padding: 10px;
+         margin: 10px;
+         margin-block-end: 15px;
+              
+     
+     } 
+     
+     .foto {
+         border-radius: 8px;
+     
+     }
+     
+     .destacados__parrafo {
+         color: #461008;
+         font-family: font-family, 'Nunito', sans-serif;
+         width: auto;
+         margin: 15px;
+    }
+     
+    /* Texto Animado Novedad */
+    
+    .Text_Animated {
+      position: relative;
+      -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+      font-size: 10px;
+    }
+    .Text_Animated span {
+      font-family: 'Alfa Slab One', cursive;
+      position: relative;
+      display: inline-block;
+      color: #461008;
+      text-transform: uppercase;
+      animation: waviy 1s infinite;
+      animation-delay: calc(.1s * var(--i));
+      
+    }
+    @keyframes waviy {
+      0%,40%,100% {
+        transform: translateY(0)
+      }
+      20% {
+        transform: translateY(-20px)
+      }
+    }
+    
+     
+     main {
+        background-color: rgb(255, 255, 255);
+    
+        grid-area: main; 
+    }
+    
+    
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        max-width: 350px;
+        align-content: center;
+    
+                
+        background-color: #eebe6b;
+        font-family: font-family, 'Nunito', sans-serif;
+        padding: 10px;
+    
+        margin: 20px;
+        margin-block-end: 15px;
+    
+    }
+    
+    .Table, tr, th {
+        border: 2px solid;
+        color: #7c4609;
+    }
+    
+    
+    .container__article{
+        max-width: 1000px;
+        padding: 0px 20px;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container__article .box__article {
+        width: 200px;
+        height: 250px;
+        margin: 20px;
+    }
+    
+    /*Aquí debajo va el Mapa de Evento*/
+    
+    .mapa__evento {
+    
+        padding: 10px;   
+    }
